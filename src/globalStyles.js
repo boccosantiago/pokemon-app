@@ -16,7 +16,7 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Montserrat', sans-serif;
 
     &::-webkit-scrollbar {
-      width: 1rem;               
+      width: 1.2rem;               
     }
 
     &::-webkit-scrollbar-track {
@@ -24,8 +24,8 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     &::-webkit-scrollbar-thumb {
-      background-color: #2F5AFF;    
-      border-radius: .5rem;       
+      background-color: #ffde00;    
+      border-radius: 1rem;       
       border: 0.25rem solid #060B28;  
     }
   }

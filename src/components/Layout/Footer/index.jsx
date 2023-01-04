@@ -1,4 +1,4 @@
-//import { SocialMedia } from "../../SocialMedia";
+import { SocialMedia } from "../../SocialMedia";
 import * as Styled from "./styles";
 
 export const Footer = () => {
@@ -9,7 +9,7 @@ export const Footer = () => {
           <span>All rights reserved.</span>
           <span>pokeapi.co</span>
         </Styled.Copy>
-        {/*  <SocialMedia /> */}
+        <SocialMedia />
       </Styled.Container>
     </div>
   );
