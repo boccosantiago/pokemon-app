@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { HeroSection } from "./components/HeroSection";
-import { SearchBar } from "./components/SearchBar";
-import { Pokedex } from "./components/Pokedex";
-import { Footer } from "./components/Layout/Footer.jsx";
-import { PokemonModal } from "./components/PokemonModal";
-import { fetchPokemonList } from "./api/fetchPokemonList";
+//import { SearchBar } from "./components/SearchBar";
+//import { Pokedex } from "./components/Pokedex";
+import { Footer } from "./components/Layout/Footer";
+//import { PokemonModal } from "./components/PokemonModal";
+//import { fetchPokemonList } from "./api/fetchPokemonList";
 
 const App = () => {
   const [modal, setModal] = useState(false);
@@ -41,7 +41,7 @@ const App = () => {
   return (
     <>
       <HeroSection setModal={setModal} setPokemonData={setPokemonData} />
-      <SearchBar
+      {/*      <SearchBar
         setPokemonList={setPokemonList}
         pokemonAmount={pokemonAmount}
         setPokemonAmount={setPokemonAmount}
@@ -69,7 +69,7 @@ const App = () => {
         setShowPagination={setShowPagination}
         searchBarRef={searchBarRef}
         disabledButton={disabledButton}
-      />
+      /> */}
       <Footer />
       {pokemonData && modal && (
         <PokemonModal setModal={setModal} pokemonData={pokemonData} />
