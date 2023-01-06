@@ -6,8 +6,8 @@ export const Footer = () => {
     <div className="main-container">
       <Styled.Container>
         <Styled.Copy>
-          <span>All rights reserved.</span>
-          <span>pokeapi.co</span>
+          <span>Santiago Bocco, All rights reserved.</span>
+          <span>Data obtained from pokeapi.co</span>
         </Styled.Copy>
         <SocialMedia />
       </Styled.Container>

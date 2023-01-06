@@ -110,7 +110,7 @@ export const PikachuDescription = styled.p`
 export const MoreDetailsButton = styled.button`
   width: 100%;
   height: 3rem;
-  background: #fff;
+  background: #ffde00;
   border-radius: 0.5rem;
   display: flex;
   justify-content: center;
@@ -119,10 +119,10 @@ export const MoreDetailsButton = styled.button`
   font-size: 1rem;
   line-height: 150%;
   font-weight: 700;
-  color: #0030ff;
+  color: #060b28;
 
   :hover {
-    opacity: 93%;
+    opacity: 90%;
   }
 
   svg {
@@ -217,5 +217,15 @@ export const PikachuImg = styled.div`
   img {
     width: 30.5rem;
     height: auto;
+    animation: example linear 2s infinite alternate;
+  }
+
+  @keyframes example {
+    0% {
+      transform: rotate(-2deg);
+    }
+    100% {
+      transform: rotate(2deg);
+    }
   }
 `;

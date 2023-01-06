@@ -1,8 +1,6 @@
 import { PokemonType } from "../PokemonType";
 import * as C from "./styles";
-import { ReactComponent as WeightIcon } from "../../assets/icon-weight.svg";
-import { ReactComponent as RulerIcon } from "../../assets/icon-ruler.svg";
-import { ReactComponent as BoltIcon } from "../../assets/icon-bolt.svg";
+import { ReactComponent as PokeballIcon } from "../../assets/icon-pokeball.svg";
 import { pokemonTypes } from "../../pokemonTypes";
 import { fetchPokemon } from "../../api/fetchPokemon";
 import { SkeletonLoading } from "../helper/SkeletonLoading";
@@ -55,7 +53,7 @@ export const PokemonCard = (props) => {
         </C.PokemonHeight>
       </C.PokemonFeatures>
       <C.MoreDetailsButton color={color} onClick={handleClick}>
-        <BoltIcon />
+        <PokeballIcon />
         Details
       </C.MoreDetailsButton>
     </C.Container>
