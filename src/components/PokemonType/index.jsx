@@ -22,6 +22,6 @@ export const PokemonType = (props) => {
       {name}
     </C.Type>
   ) : (
-    <C.ErrorMessage>Pokemon type not found!</C.ErrorMessage>
+    <C.ErrorMessage>Pokémon type not found!</C.ErrorMessage>
   );
 };

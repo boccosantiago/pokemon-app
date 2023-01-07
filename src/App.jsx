@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { HeroSection } from "./components/HeroSection";
-//import { SearchBar } from "./components/SearchBar";
+import { SearchBar } from "./components/SearchBar";
 import { Pokedex } from "./components/Pokedex";
 import { Footer } from "./components/Layout/Footer";
 import { PokemonModal } from "./components/PokemonModal";
@@ -41,7 +41,7 @@ const App = () => {
   return (
     <>
       <HeroSection setModal={setModal} setPokemonData={setPokemonData} />
-      {/*      <SearchBar
+      <SearchBar
         setPokemonList={setPokemonList}
         pokemonAmount={pokemonAmount}
         setPokemonAmount={setPokemonAmount}
@@ -52,7 +52,7 @@ const App = () => {
         disabledButton={disabledButton}
         setDisabledButton={setDisabledButton}
         searchBarRef={searchBarRef}
-      /> */}
+      />
       <Pokedex
         setModal={setModal}
         setPokemonData={setPokemonData}

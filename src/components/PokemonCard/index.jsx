@@ -6,7 +6,6 @@ import { fetchPokemon } from "../../api/fetchPokemon";
 import { SkeletonLoading } from "../helper/SkeletonLoading";
 
 export const PokemonCard = (props) => {
-  console.log(props.pokemon.id);
   const imgUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${props.pokemon.id}.png`;
 
   const [{ color }] = pokemonTypes.filter(
